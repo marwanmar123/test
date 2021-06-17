@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    class Calcul
+    public class Calcul
     {
-        
+
         int A;
         int B;
-        
+
         public Calcul(int A, int B)
         {
             this.A = A;
             this.B = B;
-            
-            
+
+
         }
-       
+
         public int Add()
         {
             return A + B;
@@ -53,7 +53,7 @@ namespace Test
         public void PrintDiv()
         {
             Console.WriteLine(Div());
-        } 
+        }
 
     }
 }
